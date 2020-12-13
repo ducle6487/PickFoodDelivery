@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1175A180FA7138ADD0ECD738 /* libPods-PickFoodDelivery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C4FCC4ED577E20C98333CC /* libPods-PickFoodDelivery.a */; };
 		2F6E801125864CEB00942273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6E801025864CEB00942273 /* AppDelegate.swift */; };
 		2F6E801525864CEB00942273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6E801425864CEB00942273 /* ViewController.swift */; };
 		2F6E801825864CEB00942273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6E801625864CEB00942273 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		2F6E801D25864CEF00942273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6E801B25864CEF00942273 /* LaunchScreen.storyboard */; };
 		2F6E802825864CEF00942273 /* PickFoodDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6E802725864CEF00942273 /* PickFoodDeliveryTests.swift */; };
 		2F6E803325864CEF00942273 /* PickFoodDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6E803225864CEF00942273 /* PickFoodDeliveryUITests.swift */; };
+		2F6E80B1258671FF00942273 /* GoogleService-Info-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F6E80B0258671FF00942273 /* GoogleService-Info-5.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		2F6E802E25864CEF00942273 /* PickFoodDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickFoodDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6E803225864CEF00942273 /* PickFoodDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickFoodDeliveryUITests.swift; sourceTree = "<group>"; };
 		2F6E803425864CEF00942273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6E80B0258671FF00942273 /* GoogleService-Info-5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-5.plist"; sourceTree = "<group>"; };
+		376AF835E8DCA9C8C966B97B /* Pods-PickFoodDelivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickFoodDelivery.release.xcconfig"; path = "Target Support Files/Pods-PickFoodDelivery/Pods-PickFoodDelivery.release.xcconfig"; sourceTree = "<group>"; };
+		C54850C9E82D1B26AD7F721A /* Pods-PickFoodDelivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickFoodDelivery.debug.xcconfig"; path = "Target Support Files/Pods-PickFoodDelivery/Pods-PickFoodDelivery.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C4FCC4ED577E20C98333CC /* libPods-PickFoodDelivery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PickFoodDelivery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1175A180FA7138ADD0ECD738 /* libPods-PickFoodDelivery.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 				2F6E802625864CEF00942273 /* PickFoodDeliveryTests */,
 				2F6E803125864CEF00942273 /* PickFoodDeliveryUITests */,
 				2F6E800E25864CEB00942273 /* Products */,
+				FE6082D61F84259A70474CFD /* Pods */,
+				79C5D348A3DA694E90D6C262 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +112,7 @@
 				2F6E801925864CEF00942273 /* Assets.xcassets */,
 				2F6E801B25864CEF00942273 /* LaunchScreen.storyboard */,
 				2F6E801E25864CEF00942273 /* Info.plist */,
+				2F6E80B0258671FF00942273 /* GoogleService-Info-5.plist */,
 			);
 			path = PickFoodDelivery;
 			sourceTree = "<group>";
@@ -125,6 +135,23 @@
 			path = PickFoodDeliveryUITests;
 			sourceTree = "<group>";
 		};
+		79C5D348A3DA694E90D6C262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C4FCC4ED577E20C98333CC /* libPods-PickFoodDelivery.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE6082D61F84259A70474CFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C54850C9E82D1B26AD7F721A /* Pods-PickFoodDelivery.debug.xcconfig */,
+				376AF835E8DCA9C8C966B97B /* Pods-PickFoodDelivery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F6E803725864CEF00942273 /* Build configuration list for PBXNativeTarget "PickFoodDelivery" */;
 			buildPhases = (
+				8C400DDEB9F9BE9254CB703C /* [CP] Check Pods Manifest.lock */,
 				2F6E800925864CEB00942273 /* Sources */,
 				2F6E800A25864CEB00942273 /* Frameworks */,
 				2F6E800B25864CEB00942273 /* Resources */,
@@ -229,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F6E801D25864CEF00942273 /* LaunchScreen.storyboard in Resources */,
+				2F6E80B1258671FF00942273 /* GoogleService-Info-5.plist in Resources */,
 				2F6E801A25864CEF00942273 /* Assets.xcassets in Resources */,
 				2F6E801825864CEB00942273 /* Main.storyboard in Resources */,
 			);
@@ -249,6 +278,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C400DDEB9F9BE9254CB703C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickFoodDelivery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F6E800925864CEB00942273 /* Sources */ = {
@@ -429,6 +483,7 @@
 		};
 		2F6E803825864CEF00942273 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54850C9E82D1B26AD7F721A /* Pods-PickFoodDelivery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +503,7 @@
 		};
 		2F6E803925864CEF00942273 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376AF835E8DCA9C8C966B97B /* Pods-PickFoodDelivery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

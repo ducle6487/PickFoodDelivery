@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>926270302542-l8igtabfr7jgqracdjdd42if9qjatt5t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.926270302542-l8igtabfr7jgqracdjdd42if9qjatt5t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyASZtGdqp01vk9_h5XNQlmIPEA6kCRznXg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>926270302542</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>AnhDucCo.op.PickFoodDelivery</string>
+	<key>PROJECT_ID</key>
+	<string>pickfooddelivery-1baa6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pickfooddelivery-1baa6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:926270302542:ios:3ffa4df4c7c6d8aef2961f</string>
+	<key>DATABASE_URL</key>
+	<string>https://pickfooddelivery-1baa6-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
