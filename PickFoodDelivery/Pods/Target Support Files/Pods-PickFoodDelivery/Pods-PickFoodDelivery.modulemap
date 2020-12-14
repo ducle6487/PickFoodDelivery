@@ -1,0 +1,6 @@
+module Pods_PickFoodDelivery {
+  umbrella header "Pods-PickFoodDelivery-umbrella.h"
+
+  export *
+  module * { export * }
+}
